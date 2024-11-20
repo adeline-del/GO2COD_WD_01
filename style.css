@@ -149,4 +149,17 @@ button {
     height: 24px;
     cursor: pointer;
   }
+
+  input.error {
+    border-color: red;
+}
+
+input::placeholder {
+    color: var(--text);
+}
+
+input.error::placeholder {
+    color: red;
+}
+
   
